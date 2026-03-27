@@ -1,4 +1,4 @@
-#🛠️ Pré-requisitos (Linux)
+🛠️ #Pré-requisitos (Linux)
 
 Para usuários de Linux que possuem o VS Code mas ainda não configuraram o ambiente Java:
 
@@ -16,7 +16,7 @@ Para usuários de Linux que possuem o VS Code mas ainda não configuraram o ambi
 
     Extensão recomendada: No VS Code, instale o Extension Pack for Java da Microsoft para facilitar a execução.
 
-#🚀 Como Executar
+🚀 #Como Executar
 
 O sistema depende da execução simultânea de ambos os arquivos. Siga os passos abaixo no terminal do VS Code:
 1. Preparar o Receptor (Receiver)
@@ -35,7 +35,7 @@ Bash
 javac MulticastSender.java
 java MulticastSender
 
-#📋 Funcionamento do Algoritmo
+📋 #Funcionamento do Algoritmo
 
 O detector opera através de duas threads principais no MulticastReceiver:
 
@@ -47,7 +47,8 @@ Lógica de Cálculo de Suspeita
 
 Se o intervalo de envio do Sender (Δ) é de 5 segundos e o monitoramento ocorre a cada 30 segundos, o número esperado de mensagens é 6. O nível de suspeita é calculado como:
 Suspeita(%)=(Mensagens EsperadasMensagens Esperadas−Mensagens Recebidas​)×100
-#📂 Estrutura do Projeto
+
+📂 #Estrutura do Projeto
 
     MulticastSender.java: Implementa o envio de datagramas para o grupo multicast com identificação do host.
 
