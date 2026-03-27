@@ -1,4 +1,4 @@
-🛠️ #Pré-requisitos (Linux)
+🛠️ # Pré-requisitos (Linux)
 
 Para usuários de Linux que possuem o VS Code mas ainda não configuraram o ambiente Java:
 
